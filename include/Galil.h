@@ -134,4 +134,8 @@ protected:
 	int setPoint;					// Control Setpoint
 
 	// TODO: Add any new data members or functions BELOW (DO NOT ADD THEM ABOVE THIS LINE)
+	bool Owner;
+	std::string LastWriteResponse;
+	GReturn LastWriteStatus;
+	uint16_t CurrentValue;
 };

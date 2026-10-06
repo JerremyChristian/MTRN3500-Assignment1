@@ -56,4 +56,6 @@ public:
 
 private:
 	// Add any additional member variables and functions as required
+	TcpClient^ client;
+	NetworkStream^ stream;
 };
