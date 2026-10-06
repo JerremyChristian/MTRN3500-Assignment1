@@ -1,7 +1,7 @@
 #include "Galil.h"
 
 int main(void) {
-	EmbeddedFunctions funcs(true);
+	EmbeddedFunctions funcs;
 	Galil myGalil(&funcs, "192.168.0.120 -d");
 
 	myGalil.DigitalOutput(0);
